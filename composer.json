@@ -1,0 +1,29 @@
+{
+    "name": "phpinfo/sms",
+    "type": "library",
+    "description": "SMS sending abstraction layer",
+    "keywords": [
+        "sms"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexey Gromov",
+            "homepage": "https://github.com/phpinfo"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "psr/log": "^1.1"
+    },
+    "suggest": {
+        "psr/log": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phpinfo\\Sms\\": "src/"
+        }
+    }
+}
